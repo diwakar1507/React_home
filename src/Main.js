@@ -12,9 +12,9 @@ class Main extends React.Component {
 
         return (
             <div className="bg-slate-50">
-                <div className="grid lg:grid-cols-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mx-24 md:mx-16 justify-between lg:mx-28 xl:ml-44 py-14 ">
+                <div className="sm:grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 content-center lg:mx-48 xl:mx-48 mx-12 sm:content-center sm:mx-16 py-10 justify between">
 
-                    <Card className="mb-8" style={{ width: '18rem' }}>
+                    <Card className="mb-8 " style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={Mi10} />
                         <Card.Body>
                             <Card.Title>Mi 10</Card.Title>
